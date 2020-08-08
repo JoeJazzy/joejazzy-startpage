@@ -1,16 +1,12 @@
-/*This file is for the regular version of the startpage (file index.html)
-  The single page version has embedded styling for use with Firefox.
-  This version is also probably more often updated.*/
-
 /*Change these variables to match with your setup. These colors work for
   the image I used and my overall desktop theme (see here:
   https://i.imgur.com/gxMdNKi.png).*/
 :root {
-	--red: #BD9980;
+	--purple: #bc81e0;
 	--white: #DCDCCC;
-	--yellow: #f0dfaf;
+	--yellow: #eccd19;
 
-	--bg: #282828;
+	--bg: #36133d;
 	--fg: #3f3f3f;
 
 	--search-bg: rgba(255, 255, 255, 0);
@@ -89,13 +85,13 @@ form:focus-within input::placeholder {
 }
 
 #links_container a:hover {
-	color: var(--red);
+	color: var(--purple);
 	transition: all 0.4s;
 }
 
 .subtitle {
 	font-weight: bold;
-	color: var(--red);
+	color: var(--purple);
 }
 
 .title {
@@ -125,22 +121,16 @@ form:focus-within input::placeholder {
 
 @media (max-width: 980px) {
 	img#leftImg {
-    	height: 280px;
-  	}
-
-  	#main_window {
-		width: 833px;
-		padding-right: 0;
+		display: none;
 	}
 
-	ul {
-		padding-top: 0px;
-		margin-top: -7px;
+	#main_window {
+		width: 650px;
 	}
 
 	#content {
-		padding-top: 0px;
-		margin-left: 220px;
+		margin-left: 20px;
+
 	}
 }
 
