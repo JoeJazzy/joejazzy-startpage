@@ -107,7 +107,7 @@ form:focus-within input::placeholder {
 .bottom {
 	position: fixed;
 	bottom: 0;
-	font-size: 0.52em;
+	font-size: 0.72em;
 }
 
 .bottom a {
